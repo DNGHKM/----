@@ -1,0 +1,82 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "args" : ["dongha","1111"],
+            "type": "java",
+            "name": "AuthApp3",
+            "request": "launch",
+            "mainClass": "AuthApp3",
+            "projectName": "java2_524f0162"
+        },
+        {
+            "type": "java",
+            "name": "LoopArray",
+            "request": "launch",
+            "mainClass": "LoopArray",
+            "projectName": "java2_524f0162"
+        },
+        {
+            "type": "java",
+            "name": "ArrayApp",
+            "request": "launch",
+            "mainClass": "ArrayApp",
+            "projectName": "java2_524f0162"
+        },
+        {
+            "type": "java",
+            "name": "LoopingStatement",
+            "request": "launch",
+            "mainClass": "LoopingStatement",
+            "projectName": "java2_524f0162"
+        },
+        {
+            "type": "java",
+            "name": "LogicalOperatorApp",
+            "request": "launch",
+            "mainClass": "LogicalOperatorApp",
+            "projectName": "java2_524f0162"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "args": [
+                "dongha",
+                1111
+            ],
+            "type": "java",
+            "name": "AuthApp",
+            "request": "launch",
+            "mainClass": "AuthApp",
+            "projectName": "java2_524f0162"
+        },
+        {
+            "type": "java",
+            "name": "ComparisonOperatorApp",
+            "request": "launch",
+            "mainClass": "ComparisonOperatorApp",
+            "projectName": "java2_524f0162"
+        },
+        {
+            "type": "java",
+            "name": "ConditionalStatement",
+            "request": "launch",
+            "mainClass": "ConditionalStatement",
+            "projectName": "java2_524f0162"
+        },
+        {
+            "type": "java",
+            "name": "booleanApp",
+            "request": "launch",
+            "mainClass": "booleanApp",
+            "projectName": "java2_524f0162"
+        }
+    ]
+}

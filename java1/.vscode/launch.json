@@ -1,0 +1,166 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HousingCost",
+            "request": "launch",
+            "mainClass": "HousingCost",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "type": "java",
+            "name": "AccountingClassApp",
+            "request": "launch",
+            "mainClass": "AccountingClassApp",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "args": [
+                6000000,
+                8000
+            ],
+            "type": "java",
+            "name": "AccountingMethodApp",
+            "request": "launch",
+            "mainClass": "AccountingMethodApp",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "args": [
+                6000000,
+                8000
+            ],
+            "type": "java",
+            "name": "AccountingArrayLoopApp",
+            "request": "launch",
+            "mainClass": "AccountingArrayLoopApp",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "args": [
+                6000000,
+                8000
+            ],
+            "type": "java",
+            "name": "AccountingArrayApp",
+            "request": "launch",
+            "mainClass": "AccountingArrayApp",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "args": [
+                6000000,
+                8000
+            ],
+            "type": "java",
+            "name": "AccountingifApp",
+            "request": "launch",
+            "mainClass": "AccountingifApp",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "args": [
+                6000000
+            ],
+            "type": "java",
+            "name": "AccountingApp",
+            "request": "launch",
+            "mainClass": "AccountingApp",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "args": [
+                6000000
+            ],
+            "type": "java",
+            "name": "AccountingApp",
+            "request": "launch",
+            "mainClass": "myapp.AccountingApp",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "type": "java",
+            "name": "MyApp",
+            "request": "launch",
+            "mainClass": "MyApp",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "type": "java",
+            "name": "InstanceApp",
+            "request": "launch",
+            "mainClass": "InstanceApp",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Casting",
+            "request": "launch",
+            "mainClass": "Casting",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "type": "java",
+            "name": "Letter",
+            "request": "launch",
+            "mainClass": "Letter",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "type": "java",
+            "name": "OK_JavaGoInHome",
+            "request": "launch",
+            "mainClass": "OK_JavaGoInHome",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "args": [
+                "won-pu",
+                "14"
+            ],
+            "type": "java",
+            "name": "OK_JavaGoInHome_input",
+            "request": "launch",
+            "mainClass": "OK_JavaGoInHome_input",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Program",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "type": "java",
+            "name": "StringApp",
+            "request": "launch",
+            "mainClass": "StringApp",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "type": "java",
+            "name": "StringOperation",
+            "request": "launch",
+            "mainClass": "StringOperation",
+            "projectName": "java1_af8001dd"
+        },
+        {
+            "type": "java",
+            "name": "Variable",
+            "request": "launch",
+            "mainClass": "Variable",
+            "projectName": "java1_af8001dd"
+        }
+    ]
+}

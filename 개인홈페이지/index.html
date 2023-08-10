@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <title>김동하에 대하여</title>
+    <style>
+    a{color:rgb(16, 115, 129)}
+    /* a(앵커)는 모두 청록색 처리   */
+    .abc{font-weight:bold}  
+    /* abc 클래스로 지정한거 볼드 */
+    #first{color:green}
+    /* id는 #으로 지정함, id가 class보다 우선함 */ 
+    span{color:blue}
+    /* span은 앞에 별도 기호 안붙히고 바로 지정할수있음, span으로 파란색 지정 */
+    </style>
+<meta charset="utf-8">
+</head>
+<body>
+    <input type="button" value="야간" onclick="
+    // <!-- // 버튼 삽입, 버튼내용 야간, 클릭했을때는 아래 -->
+    document.querySelector('body').style.backgroundColor='black';
+    //    body 선택해서 배경색상 검정, 쿼리셀렉터에 S는 대문자, 백그라운드color에 C는 대문자로 해야함
+    document.querySelector('body').style.color='white';">
+    <!-- body 선택해서 글씨색상 흰색, 쿼리셀렉터에 S는 대문자, color에 c는 소문자로 해야함 -->
+    <input type="button" value="주간" onclick="
+    // <!-- // 버튼 삽입, 버튼내용 주간, 클릭했을때는 아래 -->
+    document.querySelector('body').style.backgroundColor='white';
+    //    body 선택해서 배경색상 흰색, 쿼리셀렉터에 S는 대문자, 백그라운드color에 C는 대문자로 해야함
+    document.querySelector('body').style.color='black';">
+    <!-- body 선택해서 글씨색상 검정, 쿼리셀렉터에 S는 대문자, color에 c는 소문자로 해야함 -->
+    <h1 style="background-color:#008275; color:white">김동하(金東河)｜Dongha Kim</h1>
+    <img src="김동하 전신.jpg" width="20%">
+    <div> 출생 : 1994년 7월 30일(전라남도 여수) </div>
+    <div> <span id="first" class="abc"> 거주 : 경기도 고양, 경기도 과천</span> </div>
+    <!-- abc로 클래스 지정한후, CSS로 폰트 굵게함, id설정해서 따로 또 초록색함 -->
+    <div> <span class="abc">국적 : 대한민국</span></div>
+    <!-- abc로 클래스 지정한후, CSS로 폰트 굵게함 -->
+    <div> <span class="abc">신체 : 174cm, 70kg</span>
+</div>
+    <div> <span>가족 : 배우자 류푸름, 부 김용수, 모 김경희, 매 김여형</span></div>
+    <!-- span으로 그룹핑 -->
+    <div> <span>학력 : 꿈나무유치원</span></div>
+    <!-- span으로 그룹핑 -->
+    <a href="https://www.sinchon.es.kr/wah/main/index.htm"> 신촌초등학교</a></div>
+    <div><a href="http://oma.ms.kr/"> 오마중학교</a></div>
+    <div><a href="https://www.jeongbal.hs.kr/wah/main/index.htm"> 정발고등학교</a></div>
+    <div><a href="http://college.kau.ac.kr/web/index.do?siteFlag=hw_www"> 한국항공대학교(항공운항학)</a></div>
+    <div> 현 직장 : <a href="https://rokaf.airforce.mil.kr/sites/airforce/index.do"> 대한민국 공군</a></div>
+    <div><a href="https://blog.naver.com/dnghkm"> <img src="블로그마크.jpg" width="5%"></a> 
+    <a href="https://www.instagram.com/bkn008/"> <img src="인스타마크.svg" width="3%"></a>
+    <a href="https://www.youtube.com/channel/UCm3K_fZs7swHoUZh1gx-Bxg"> <img src="유튜브마크.png" width="4%"></a>
+    <P>
+    <div>문제내겠습니다.</div>
+    <div>김동하의 결혼기념일은?(숫자 6자리)</div>
+
+    <input type="box" id="answers">
+    <input type="button" value="정답확인" onclick="
+        if(document.getElementById('answers').value==='221105'){
+            window.alert('정답입니다.')}
+        else{
+            window.alert('오답입니다.')}">
+    </p>
+    <div> 
+        <select>
+            <option> 1 </option>
+            <option> 2</option>
+            <option> 3 </option>
+            <option> 4 </option>
+            <option> 5 </option>
+        </select>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계약장교 업무도구</id></title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>HOME</h1>
+        <div>
+        <input id="night_day" type="button" value="야간" onclick="
+        let target= document.querySelector('body')
+        if(this.value==='야간'){
+            target.style.backgroundColor='black';
+            target.style.color='white';
+            var alist=document.querySelectorAll('a')
+            // 모든 앵커를 alist라는 목록에 담는다
+
+            var i=0
+            while(i<alist.length){
+                alist[i].style.color='white';
+                // 반복문, alist 0번부터 반복하여 흰색으로만듬
+                i=i+1
+            }
+            
+            document.querySelector('#active').style.color='green';
+            document.querySelector('#night_day').value='주간'
+            // .value는 해당 선택자의 밸류값을 가져옴
+            }
+        else{
+            target.style.backgroundColor='antiquewhite';
+            target.style.color='black';
+
+            var alist=document.querySelectorAll('a')
+            var i=0
+            while(i<alist.length){
+                alist[i].style.color='black';
+                i=i+1}
+
+            document.querySelector('#active').style.color='green';
+            document.querySelector('#night_day').value='야간'
+            }">
+            </div>
+<div id="grid">
+    <div>
+        <ul>
+        <li><a href="index.html" class="목차" id="active">HOME</li></a>
+        <li><a href="계약법규.html" class="목차">계약법규</a></li>
+        <li><a href="물품계약.html" class="목차">물품계약</a></li>
+        <li><a href="용역계약.html" class="목차">용역계약</a></li>
+        <li><a href="공사계약.html" class="목차">공사계약</a></li>
+        </ul>
+    </div>
+    <div id="article">
+        <div id="count"></div>
+        <script>	// D-Day
+            const dday = new Date("2024-02-29:00:00:00+0900").getTime();
+            
+            setInterval(function() {
+              const today = new Date().getTime();
+              const gap = dday - today;
+              const day = Math.floor(gap / (1000 * 60 * 60 * 24));
+              const hour = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              const min = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
+              const sec = Math.floor((gap % (1000 * 60)) / 1000);
+            
+                  document.getElementById("count").innerHTML = "전역일까지 " + day + "일 " + hour + "시간 " + min + "분 " + sec + "초 남았습니다.";
+            }, 1000);
+            </script>
+    <p id="wish">건승을 빕니다.</p>
+
+    </div>
+</div>
+</body>
+</html>

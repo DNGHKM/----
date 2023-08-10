@@ -1,0 +1,63 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AccountingApp2",
+            "request": "launch",
+            "mainClass": "AccountingApp2",
+            "projectName": "java4_5211e458"
+        },
+        {
+            "type": "java",
+            "name": "MyOOP",
+            "request": "launch",
+            "mainClass": "MyOOP",
+            "projectName": "java4_5211e458"
+        },
+        {
+            "type": "java",
+            "name": "AccountingApp2",
+            "request": "launch",
+            "mainClass": "AccountingApp2",
+            "projectName": "java4_ea30b779"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MyOOP",
+            "request": "launch",
+            "mainClass": "MyOOP",
+            "projectName": "java4_ea30b779"
+        },
+        {
+            "type": "java",
+            "name": "OthersOOP",
+            "request": "launch",
+            "mainClass": "OthersOOP",
+            "projectName": "java4_ea30b779"
+        },
+        {
+            "type": "java",
+            "name": "StaticApp",
+            "request": "launch",
+            "mainClass": "StaticApp",
+            "projectName": "java4_ea30b779"
+        },
+        {
+            "type": "java",
+            "name": "staticMethod",
+            "request": "launch",
+            "mainClass": "staticMethod",
+            "projectName": "java4_ea30b779"
+        }
+    ]
+}
